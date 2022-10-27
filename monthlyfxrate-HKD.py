@@ -1,4 +1,4 @@
-import json
+#import json
 import pandas as pd
 import datetime as dt
 from datetime import date
@@ -14,4 +14,5 @@ fxrate = pd.concat(pd.read_html(link+d)[0].assign(Date=d) for d in dates)
 newfxrate = fxrate[fxrate.Currency.isin(["AUD","CAD","CHF","EUR","GBP","INR","MXN","PHP","PEN","PLN","RMB","SGD","USD"])]
 finalfx = newfxrate[['Currency', 'Units per HKD', 'HKD per unit', 'Date']]
 
-finalfx.to_json('./monthlyfxrate-HKD.json', orient='records', indent=2)
+#finalfx.to_json('./monthlyfxrate-HKD.json', orient='records', indent=2)
+finalfx.to_csv('./monthlyfxrate-HKD.csv', index=False)
