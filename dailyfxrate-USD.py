@@ -22,6 +22,6 @@ fxrate = filteredratexrate[['Currency', 'Units per USD', 'USD per unit', 'Date']
 oldfx = pd.DataFrame(json.load(open('dailyfxrate-USD.json')))
 newfx = pd.DataFrame(fxrate)
 
-finalfx = pd.concat((oldfx, newfx ), axis = 0).drop_duplicates(subset=['Currency', 'Units per USD', 'USD per unit', 'Date'], keep=‘first’).reset_index(drop=True)
+finalfx = pd.concat((oldfx, newfx ), axis = 0).drop_duplicates().reset_index(drop=True)
 
 finalfx.to_json('./dailyfxrate-USD.json', orient='records', indent=2)
