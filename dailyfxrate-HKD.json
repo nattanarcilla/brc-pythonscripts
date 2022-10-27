@@ -21454,5 +21454,149 @@
     "Units per HKD":0.5085510979,
     "HKD per unit":1.9663707425,
     "Date":"2022-10-25"
+  },
+  {
+    "Currency":"USD",
+    "Units per HKD":0.1273954225,
+    "HKD per unit":7.8495756001,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"EUR",
+    "Units per HKD":0.1278861557,
+    "HKD per unit":7.8194546902,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"GBP",
+    "Units per HKD":0.1110636058,
+    "HKD per unit":9.0038495797,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"INR",
+    "Units per HKD":10.5086124357,
+    "HKD per unit":0.0951600419,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"AUD",
+    "Units per HKD":0.1991921746,
+    "HKD per unit":5.020277539,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"CAD",
+    "Units per HKD":0.173456872,
+    "HKD per unit":5.7651218327,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"SGD",
+    "Units per HKD":0.1804440088,
+    "HKD per unit":5.5418852995,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"CHF",
+    "Units per HKD":0.1268792191,
+    "HKD per unit":7.8815113054,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"MXN",
+    "Units per HKD":2.5305918838,
+    "HKD per unit":0.3951644698,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"PHP",
+    "Units per HKD":7.4736448333,
+    "HKD per unit":0.1338035219,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"PLN",
+    "Units per HKD":0.6089622831,
+    "HKD per unit":1.6421378264,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"PEN",
+    "Units per HKD":0.5085510979,
+    "HKD per unit":1.9663707425,
+    "Date":"2022-10-25"
+  },
+  {
+    "Currency":"USD",
+    "Units per HKD":0.1273906037,
+    "HKD per unit":7.8498725277,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"EUR",
+    "Units per HKD":0.1265826113,
+    "HKD per unit":7.8999792313,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"GBP",
+    "Units per HKD":0.109755026,
+    "HKD per unit":9.1112000646,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"INR",
+    "Units per HKD":10.4474275942,
+    "HKD per unit":0.095717342,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"AUD",
+    "Units per HKD":0.1961079473,
+    "HKD per unit":5.0992324067,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"CAD",
+    "Units per HKD":0.1726874202,
+    "HKD per unit":5.7908097684,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"SGD",
+    "Units per HKD":0.179074342,
+    "HKD per unit":5.5842729258,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"CHF",
+    "Units per HKD":0.1257219659,
+    "HKD per unit":7.954059519,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"MXN",
+    "Units per HKD":2.5314489425,
+    "HKD per unit":0.3950306811,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"PHP",
+    "Units per HKD":7.4171389106,
+    "HKD per unit":0.1348228761,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"PLN",
+    "Units per HKD":0.6015742736,
+    "HKD per unit":1.6623051283,
+    "Date":"2022-10-26"
+  },
+  {
+    "Currency":"PEN",
+    "Units per HKD":0.508176588,
+    "HKD per unit":1.967819895,
+    "Date":"2022-10-26"
   }
 ]
