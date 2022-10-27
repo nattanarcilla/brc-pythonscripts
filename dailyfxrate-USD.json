@@ -1,17 +1,5 @@
 [
   {
-    "Currency":"EUR",
-    "Units per USD":0.8795760099,
-    "USD per unit":1.1369114082,
-    "Date":"2022-01-01"
-  },
-  {
-    "Currency":"EUR",
-    "Units per USD":0.8795760099,
-    "USD per unit":1.1369114082,
-    "Date":"2022-01-01"
-  },
-  {
     "Currency":"GBP",
     "Units per USD":0.7392026854,
     "USD per unit":1.3528089383,
@@ -21175,291 +21163,75 @@
   },
   {
     "Currency":"EUR",
-    "Units per USD":1.0140872027,
-    "USD per unit":0.9861084898,
-    "Date":"2022-10-22"
+    "Units per USD":0.9936573626,
+    "USD per unit":1.0063831232,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"GBP",
-    "Units per USD":0.8845596289,
-    "USD per unit":1.1305060364,
-    "Date":"2022-10-22"
+    "Units per USD":0.8615629634,
+    "USD per unit":1.1606812763,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"INR",
-    "Units per USD":82.5345444248,
-    "USD per unit":0.0121161388,
-    "Date":"2022-10-22"
+    "Units per USD":82.0109748565,
+    "USD per unit":0.01219349,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"AUD",
-    "Units per USD":1.5711730676,
-    "USD per unit":0.6364671217,
-    "Date":"2022-10-22"
+    "Units per USD":1.5394223878,
+    "USD per unit":0.6495942945,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"CAD",
-    "Units per USD":1.3647627877,
-    "USD per unit":0.7327280675,
-    "Date":"2022-10-22"
+    "Units per USD":1.355574236,
+    "USD per unit":0.7376947521,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"SGD",
-    "Units per USD":1.4152052115,
-    "USD per unit":0.7066113041,
-    "Date":"2022-10-22"
+    "Units per USD":1.405710758,
+    "USD per unit":0.7113838991,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"CHF",
-    "Units per USD":0.9976682312,
-    "USD per unit":1.0023372186,
-    "Date":"2022-10-22"
+    "Units per USD":0.9869014066,
+    "USD per unit":1.0132724437,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"HKD",
-    "Units per USD":7.8496239511,
-    "USD per unit":0.1273946378,
-    "Date":"2022-10-22"
+    "Units per USD":7.8498725277,
+    "USD per unit":0.1273906037,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"MXN",
-    "Units per USD":19.9278579772,
-    "USD per unit":0.050181008,
-    "Date":"2022-10-22"
+    "Units per USD":19.8715515091,
+    "USD per unit":0.0503231969,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"PHP",
-    "Units per USD":58.8684709685,
-    "USD per unit":0.0169870218,
-    "Date":"2022-10-22"
+    "Units per USD":58.2235949678,
+    "USD per unit":0.0171751676,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"PLN",
-    "Units per USD":4.8415422848,
-    "USD per unit":0.2065457536,
-    "Date":"2022-10-22"
+    "Units per USD":4.7222813633,
+    "USD per unit":0.2117620538,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"PEN",
-    "Units per USD":3.9757240647,
-    "USD per unit":0.2515265103,
-    "Date":"2022-10-22"
-  },
-  {
-    "Currency":"EUR",
-    "Units per USD":1.0138963858,
-    "USD per unit":0.986294077,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"GBP",
-    "Units per USD":0.8844208798,
-    "USD per unit":1.1306833916,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"INR",
-    "Units per USD":82.4888430671,
-    "USD per unit":0.0121228516,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"AUD",
-    "Units per USD":1.577363953,
-    "USD per unit":0.6339690964,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"CAD",
-    "Units per USD":1.3617318637,
-    "USD per unit":0.7343589635,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"SGD",
-    "Units per USD":1.4152142253,
-    "USD per unit":0.7066068035,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"CHF",
-    "Units per USD":0.9974040505,
-    "USD per unit":1.0026027059,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"HKD",
-    "Units per USD":7.8493615142,
-    "USD per unit":0.1273988971,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"MXN",
-    "Units per USD":19.956866407,
-    "USD per unit":0.050108067,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"PHP",
-    "Units per USD":58.8666090815,
-    "USD per unit":0.0169875591,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"PLN",
-    "Units per USD":4.8435174938,
-    "USD per unit":0.2064615233,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"PEN",
-    "Units per USD":3.9753793877,
-    "USD per unit":0.2515483184,
-    "Date":"2022-10-23"
-  },
-  {
-    "Currency":"EUR",
-    "Units per USD":1.0126654332,
-    "USD per unit":0.9874929737,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"GBP",
-    "Units per USD":0.8854266609,
-    "USD per unit":1.1293990165,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"INR",
-    "Units per USD":82.806466758,
-    "USD per unit":0.0120763515,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"AUD",
-    "Units per USD":1.5849562711,
-    "USD per unit":0.6309322334,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"CAD",
-    "Units per USD":1.3703019624,
-    "USD per unit":0.7297661592,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"SGD",
-    "Units per USD":1.4215925357,
-    "USD per unit":0.7034364453,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"CHF",
-    "Units per USD":1.0007499862,
-    "USD per unit":0.9992505759,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"HKD",
-    "Units per USD":7.8498286633,
-    "USD per unit":0.1273913155,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"MXN",
-    "Units per USD":19.9490366637,
-    "USD per unit":0.0501277338,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"PHP",
-    "Units per USD":58.8654547132,
-    "USD per unit":0.0169878922,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"PLN",
-    "Units per USD":4.8422851165,
-    "USD per unit":0.2065140684,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"PEN",
-    "Units per USD":4.000043648,
-    "USD per unit":0.249997272,
-    "Date":"2022-10-24"
-  },
-  {
-    "Currency":"EUR",
-    "Units per USD":1.0038520474,
-    "USD per unit":0.996162734,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"GBP",
-    "Units per USD":0.8718021698,
-    "USD per unit":1.1470492213,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"INR",
-    "Units per USD":82.4881477655,
-    "USD per unit":0.0121229537,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"AUD",
-    "Units per USD":1.5635740333,
-    "USD per unit":0.6395603781,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"CAD",
-    "Units per USD":1.3615628304,
-    "USD per unit":0.7344501316,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"SGD",
-    "Units per USD":1.416408889,
-    "USD per unit":0.7060108192,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"CHF",
-    "Units per USD":0.9959480226,
-    "USD per unit":1.0040684627,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"HKD",
-    "Units per USD":7.8495756001,
-    "USD per unit":0.1273954225,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"MXN",
-    "Units per USD":19.8640723045,
-    "USD per unit":0.0503421446,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"PHP",
-    "Units per USD":58.6649401271,
-    "USD per unit":0.0170459562,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"PLN",
-    "Units per USD":4.780095479,
-    "USD per unit":0.2092008422,
-    "Date":"2022-10-25"
-  },
-  {
-    "Currency":"PEN",
-    "Units per USD":3.9919102896,
-    "USD per unit":0.2505066315,
-    "Date":"2022-10-25"
+    "Units per USD":3.9891214371,
+    "USD per unit":0.2506817643,
+    "Date":"2022-10-26"
   },
   {
     "Currency":"EUR",
