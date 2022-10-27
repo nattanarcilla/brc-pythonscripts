@@ -3,7 +3,7 @@ name: MonthlyFx
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '0 0 1 * *' #will run 1st day of the month at 12:00 UTC
+    - cron:  '0 0 1 * *' # will run 1st day of the month at 12:00 UTC
 
 jobs:
   scheduled:
