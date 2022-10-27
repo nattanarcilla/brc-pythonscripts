@@ -1,4 +1,4 @@
-import json
+#import json
 import pandas as pd
 import datetime as dt
 from datetime import date
@@ -19,8 +19,10 @@ filteredratexrate = webrate[webrate.Currency.isin(["AUD","CAD","CHF","EUR","GBP"
 fxrate = filteredratexrate[['Currency', 'Units per HKD', 'HKD per unit', 'Date']]
 
 #load current exchange rate file and merge with new exchange rate
-oldfx = pd.DataFrame(json.load(open('dailyfxrate-HKD.json')))
+#oldfx = pd.DataFrame(json.load(open('dailyfxrate-HKD.json')))
+oldfx = pd.DataFrame(pd.read_csv('dailyfxrate-HKD.csv'))
 newfx = pd.DataFrame(fxrate)
 
 finalfx = pd.concat((oldfx, newfx ),ignore_index=True).drop_duplicates().reset_index(drop=True)
-finalfx.to_json('./dailyfxrate-HKD.json', orient='records', indent=2)
+#finalfx.to_json('./dailyfxrate-HKD.json', orient='records', indent=2)
+finalfx.to_csv('./dailyfxrate-HKD.csv', index=False)
