@@ -22,6 +22,6 @@ fxrate = filteredratexrate[['Currency', 'Units per HKD', 'HKD per unit', 'Date']
 oldfx = pd.DataFrame(json.load(open('dailyfxrate-HKD.json')))
 newfx = pd.DataFrame(fxrate)
 
-finalfx = pd.concat((oldfx, newfx ), axis = 0).drop_duplicates(subset=['Currency', 'Units per HKD', 'HKD per unit', 'Date'], keep=‘first’).reset_index(drop=True)
+finalfx = pd.concat((oldfx, newfx ), axis = 0).drop_duplicates().reset_index(drop=True)
 
 finalfx.to_json('./dailyfxrate-HKD.json', orient='records', indent=2)
