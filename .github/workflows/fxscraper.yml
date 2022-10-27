@@ -2,7 +2,7 @@ name: scraper-fx-rate
 
 on: 
   schedule:
-    - cron: '0 0 * * *' #'0 12 * * *' # runs at 12:00 UTC everyday
+    - cron: '0 0 * * *' #'0 12 * * *' # runs at 12:00 UTC daily
 
 jobs:
   build:
