@@ -1,5 +1,11 @@
 [
   {
+    "Currency":"EUR",
+    "Units per USD":0.8795760099,
+    "USD per unit":1.1369114082,
+    "Date":"2022-01-01"
+  },
+  {
     "Currency":"GBP",
     "Units per USD":0.7392026854,
     "USD per unit":1.3528089383,
