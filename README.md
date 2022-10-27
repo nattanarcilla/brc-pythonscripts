@@ -1,2 +1,2 @@
 # brc-pythonscripts
-[![scraper-fx-rate](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/fxscraper.yml/badge.svg)](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/fxscraper.yml)  [![DailyFx](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/DailyFx.yml/badge.svg)](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/DailyFx.yml)
+[![DailyFx](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/DailyFx.yml/badge.svg)](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/DailyFx.yml)
