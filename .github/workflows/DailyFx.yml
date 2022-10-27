@@ -1,4 +1,4 @@
-name: dailyfxhkd
+name: DailyFx
 
 on:
   workflow_dispatch:
@@ -25,7 +25,9 @@ jobs:
           pip install -r requirements.txt
           
       - name: execute py script
-        run: python dailyfxrate-HKD.py
+        run: |
+          python dailyfxrate-HKD.py
+          python dailyfxrate-USD.py
           
       - name: commit files
         run: |
