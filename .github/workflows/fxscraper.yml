@@ -22,6 +22,7 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
+          python pip3 install lxml
           pip install -r requirements.txt
           
       - name: execute py script # run fx-rate.py to get the latest data
