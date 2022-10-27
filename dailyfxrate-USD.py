@@ -4,8 +4,8 @@ import datetime as dt
 from datetime import date
 
 delta = dt.timedelta(days=1)
-i = dt.date(date.today().year, date.today().month, date.today().day -5)
-ed = dt.date(date.today().year, date.today().month, date.today().day -1)
+i = dt.date(date.today().year, date.today().month, date.today().day -2)
+ed = dt.date(date.today().year, date.today().month, date.today().day-1)
 
 dates = []
 
@@ -22,6 +22,5 @@ fxrate = filteredratexrate[['Currency', 'Units per USD', 'USD per unit', 'Date']
 oldfx = pd.DataFrame(json.load(open('dailyfxrate-USD.json')))
 newfx = pd.DataFrame(fxrate)
 
-finalfx = pd.concat((oldfx, newfx ), axis = 0).drop_duplicates().reset_index(drop=True)
-
+finalfx = pd.concat((oldfx, newfx ),ignore_index=True).drop_duplicates().reset_index(drop=True)
 finalfx.to_json('./dailyfxrate-USD.json', orient='records', indent=2)
