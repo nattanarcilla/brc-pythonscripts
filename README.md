@@ -1,4 +1,2 @@
 # brc-pythonscripts
-[![scraper-fx-rate](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/fxscraper.yml/badge.svg)](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/fxscraper.yml)
-
-[![dailyfxusd](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/dailyfxusd.yml/badge.svg)](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/dailyfxusd.yml)
+[![scraper-fx-rate](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/fxscraper.yml/badge.svg)](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/fxscraper.yml) | [![dailyfxusd](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/dailyfxusd.yml/badge.svg)](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/dailyfxusd.yml) | [![dailyfxhkd](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/dailyfxhkd.yml/badge.svg)](https://github.com/nattanarcilla/brc-pythonscripts/actions/workflows/dailyfxhkd.yml)
