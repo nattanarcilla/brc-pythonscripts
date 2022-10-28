@@ -4,7 +4,7 @@ import datetime as dt
 from datetime import date
 
 delta = dt.timedelta(days=1)
-i = dt.date(date.today().year, date.today().month, date.today().day -2)
+i = dt.date(date.today().year, date.today().month, date.today().day -3)
 ed = dt.date(date.today().year, date.today().month, date.today().day-1)
 
 dates = []
