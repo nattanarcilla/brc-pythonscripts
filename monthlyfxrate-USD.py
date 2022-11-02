@@ -13,8 +13,8 @@ fxrate = pd.concat(pd.read_html(link+d)[0].assign(Date=d) for d in dates)
 newfxrate = fxrate[fxrate.Currency.isin(["AUD","CAD","CHF","EUR","GBP","INR","MXN","PHP","PEN","PLN","RMB","SGD","HKD"])]
 finalfx = newfxrate[['Currency', 'Units per USD', 'USD per unit', 'Date']]
 
-oldfx = pd.DataFrame(pd.read_csv('dailyfxrate-USD.csv'))
+oldfx = pd.DataFrame(pd.read_csv('monthlyfxrate-USD.csv'))
 newfx = pd.DataFrame(finalfx)
 
 finalfx2 = pd.concat((oldfx, newfx ),ignore_index=True).drop_duplicates().reset_index(drop=True)
-finalfx2.to_csv('./dailyfxrate-USD.csv', index=False)
+finalfx2.to_csv('./monthlyfxrate-USD.csv', index=False)
