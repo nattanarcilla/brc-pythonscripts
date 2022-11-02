@@ -7,7 +7,7 @@ from pandas.tseries.offsets import MonthEnd
 i = dt.date(2022, 1, 1)
 ed = date.today() - timedelta(days=1)
 
-dates = pd.date_range(i, ed, freq='BM').strftime("%Y-%m-%d")
+dates = pd.date_range(i, ed, freq='M').strftime("%Y-%m-%d")
 
 link = "https://www.xe.com/currencytables/?from=HKD&date="
 fxrate = pd.concat(pd.read_html(link+d)[0].assign(Date=d) for d in dates)
