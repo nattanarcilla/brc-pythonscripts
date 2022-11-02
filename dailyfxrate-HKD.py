@@ -1,11 +1,11 @@
 #import json
 import pandas as pd
 import datetime as dt
-from datetime import date
+from datetime import date, timedelta
 
 delta = dt.timedelta(days=1)
-i = dt.date(date.today().year, date.today().month, date.today().day -3)
-ed = dt.date(date.today().year, date.today().month, date.today().day-1)
+i = date.today() - timedelta(days=5)
+ed = date.today() - timedelta(days=1)
 
 dates = []
 
