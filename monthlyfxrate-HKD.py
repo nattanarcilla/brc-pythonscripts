@@ -1,11 +1,11 @@
 #import json
 import pandas as pd
 import datetime as dt
-from datetime import date
+from datetime import date, timedelta
 from pandas.tseries.offsets import MonthEnd
 
 i = dt.date(2022, 1, 1)
-ed = dt.date(date.today().year, date.today().month, date.today().day -1)
+ed = date.today() - timedelta(days=1)
 
 dates = pd.date_range(i, ed, freq='BM').strftime("%Y-%m-%d")
 
