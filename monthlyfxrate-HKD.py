@@ -10,7 +10,7 @@ dates = pd.date_range(i, ed, freq='M').strftime("%Y-%m-%d")
 
 link = "https://www.xe.com/currencytables/?from=HKD&date="
 fxrate = pd.concat(pd.read_html(link+d)[0].assign(Date=d) for d in dates)
-newfxrate = fxrate[fxrate.Currency.isin(["AUD","CAD","CHF","EUR","GBP","INR","MXN","PHP","PEN","PLN","RMB","SGD","USD"])]
+newfxrate = fxrate[fxrate.Currency.isin(["AUD","CAD","CHF","EUR","GBP","INR","MXN","PHP","PEN","PLN","CNY","SGD","USD"])]
 finalfx = newfxrate[['Currency', 'Units per HKD', 'HKD per unit', 'Date']]
 
 oldfx = pd.DataFrame(pd.read_csv('monthlyfxrate-HKD.csv'))
