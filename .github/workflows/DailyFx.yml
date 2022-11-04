@@ -26,8 +26,8 @@ jobs:
           
       - name: execute py script
         run: |
-          python dailyfxrate-HKD.py
           python dailyfxrate-USD.py
+          python dailyfxrate-HKD.py
           
       - name: commit files
         run: |
