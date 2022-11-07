@@ -24,10 +24,11 @@ jobs:
           pip install lxml
           pip install -r requirements.txt
           
-      - name: execute py script
-        run: |
-          python dailyfxrate-USD.py
-          python dailyfxrate-HKD.py
+      - name: execute 1st py script
+        run: python dailyfxrate-USD.py
+          
+      - name: execute 2nd py script
+        run: python dailyfxrate-HKD.py
           
       - name: commit files
         run: |
