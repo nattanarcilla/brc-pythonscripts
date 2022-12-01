@@ -17,4 +17,4 @@ oldfx = pd.DataFrame(pd.read_csv('monthlyfxrate-USD.csv')).round({"Units per USD
 newfx = pd.DataFrame(finalfx).round({"Units per USD":3, "USD per unit":3})
 
 finalfx2 = pd.concat((oldfx, newfx ),ignore_index=True).drop_duplicates().reset_index(drop=True)
-finalfx2.to_csv('./monthlyfxrate-USDTEST.csv', index=False)
+finalfx2.to_csv('./monthlyfxrate-USD.csv', index=False)
