@@ -4,7 +4,7 @@ from datetime import date, timedelta
 from pandas.tseries.offsets import MonthEnd
 
 i = date.today() - timedelta(days=15)
-ed = date.today() + timedelta(days=1)
+ed = date.today()
 
 dates = pd.date_range(i, ed, freq='M').strftime("%Y-%m-%d")
 
